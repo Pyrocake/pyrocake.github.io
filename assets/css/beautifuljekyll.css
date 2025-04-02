@@ -17,11 +17,12 @@ layout: null
   --footer-text-col: {{ site.footer-text-col | default: "#777777" }};
   --footer-link-col: {{ site.footer-link-col | default: "#404040" }};
   --footer-hover-col: {{ site.footer-hover-col | default: "#0085A1" }};
+  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 
   /* common CSS variables */
   --body-font: 'Lora', 'Times New Roman', serif;
   --header-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --mid-col: #808080;
+  --mid-col: #535353;
 }
 
 /* --- General --- */
@@ -31,7 +32,7 @@ html {
 }
 
 body {
-  font-family: var(--body-font);
+  font-family: 'Lora', 'Times New Roman', serif;
   font-size: 1.125rem;
   color: var(--text-col);
   position: relative;
@@ -53,7 +54,7 @@ p {
   margin: 1.875rem 0;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: var(--header-font);
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
   line-height: 1.1;
 }
@@ -81,7 +82,6 @@ a:focus {
 }
 blockquote {
   color: var(--mid-col);
-  font-style: italic;
 }
 blockquote p:first-child {
   margin-top: 0;
@@ -154,7 +154,7 @@ img {
 .navbar-custom {
   background-color: var(--navbar-col);
   border-bottom: 1px solid var(--navbar-border-col);
-  font-family: var(--header-font);
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
     background-attachment: fixed;
