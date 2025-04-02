@@ -60,6 +60,7 @@ nav-short: false
 /* Grass mod box color */
 .large-feature-item:nth-child(2) {
     background-color: #4CAF50; /* Fresh grassy green */
+    color: #404040;
 }
 
 .large-feature-item:nth-child(2):hover {
