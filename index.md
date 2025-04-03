@@ -5,13 +5,13 @@ subtitle: the home of my projects
 nav-short: false
 ---
 
-<head>
-    <title>{{ site.title }}</title>
-</head>
-
 <style>
 :root {
     --large-box-count: 2; /* Change this number to set the count of large boxes */
+}
+
+.container-md {
+    max-width: 5000px;
 }
 
 .center-text {
@@ -32,9 +32,10 @@ nav-short: false
 .large-features-container {
     gap: 1em;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Allow flexibility while keeping them side by side */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Allow flexibility while keeping them side by side */
+    grid-template-rows: 1fr;
     margin: 1em auto;
-    max-width: 90%; /* Keep the large boxes wide without stacking */
+    max-width: 100%; /* Keep the large boxes wide without stacking */
 }
 
 .large-feature-item {
@@ -118,7 +119,7 @@ nav-short: false
 <div class="large-features-container">
     <a href="#" class="large-feature-item">
         <i class="fa-solid fa-sun"></i> <strong class="item-header">Radiant</strong>
-        <p>A sunlight-based magic mod where the sky gives you no limits</p>
+        <p>A sunlight-based magic mod where the sky means no limits</p>
     </a>
     <a href="#" class="large-feature-item">
         <i class="fa-solid fa-seedling"></i> <strong class="item-header">UGM</strong>
