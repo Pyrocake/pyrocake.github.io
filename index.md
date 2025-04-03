@@ -129,9 +129,9 @@ nav-short: false
 
 <div class="features-container" markdown="1">
 
-> <i class="fa-solid fa-calendar"></i> **Up to Date**{:.item-header}
+> <i class="fa-solid fa-person"></i> **One-Person Team**{:.item-header}
 >
-> Extra care will always be made to keep mods up to date, even if most are outdated.
+> I am one person! There is no team behind this, so delays are possible when updating
 {:.note.center-text.feature-item}
 ^
 
